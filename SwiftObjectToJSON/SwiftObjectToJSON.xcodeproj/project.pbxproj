@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F9DEAC121F9B673300829FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC111F9B673300829FB0 /* AppDelegate.swift */; };
-		F9DEAC141F9B673300829FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC131F9B673300829FB0 /* ViewController.swift */; };
 		F9DEAC171F9B673400829FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DEAC151F9B673400829FB0 /* Main.storyboard */; };
 		F9DEAC191F9B673400829FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DEAC181F9B673400829FB0 /* Assets.xcassets */; };
 		F9DEAC1C1F9B673400829FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DEAC1A1F9B673400829FB0 /* LaunchScreen.storyboard */; };
+		F9DEAC241F9B675E00829FB0 /* SwiftMapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC231F9B675E00829FB0 /* SwiftMapperViewController.swift */; };
+		F9DEAC271F9B687B00829FB0 /* SwiftToJsonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC261F9B687B00829FB0 /* SwiftToJsonMapper.swift */; };
+		F9DEAC291F9B68F300829FB0 /* AMSwiftBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC281F9B68F300829FB0 /* AMSwiftBase.swift */; };
+		F9DEAC2C1F9B697100829FB0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC2B1F9B697100829FB0 /* LoginModel.swift */; };
+		F9DEAC2E1F9B6C1900829FB0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEAC2D1F9B6C1900829FB0 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9DEAC0E1F9B673300829FB0 /* SwiftObjectToJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftObjectToJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DEAC111F9B673300829FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9DEAC131F9B673300829FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9DEAC161F9B673400829FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9DEAC181F9B673400829FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9DEAC1B1F9B673400829FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9DEAC1D1F9B673400829FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DEAC231F9B675E00829FB0 /* SwiftMapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMapperViewController.swift; sourceTree = "<group>"; };
+		F9DEAC261F9B687B00829FB0 /* SwiftToJsonMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftToJsonMapper.swift; sourceTree = "<group>"; };
+		F9DEAC281F9B68F300829FB0 /* AMSwiftBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMSwiftBase.swift; sourceTree = "<group>"; };
+		F9DEAC2B1F9B697100829FB0 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		F9DEAC2D1F9B6C1900829FB0 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,34 @@
 		F9DEAC101F9B673300829FB0 /* SwiftObjectToJSON */ = {
 			isa = PBXGroup;
 			children = (
+				F9DEAC2A1F9B695400829FB0 /* Example */,
+				F9DEAC251F9B677000829FB0 /* SourceCode */,
 				F9DEAC111F9B673300829FB0 /* AppDelegate.swift */,
-				F9DEAC131F9B673300829FB0 /* ViewController.swift */,
 				F9DEAC151F9B673400829FB0 /* Main.storyboard */,
 				F9DEAC181F9B673400829FB0 /* Assets.xcassets */,
 				F9DEAC1A1F9B673400829FB0 /* LaunchScreen.storyboard */,
 				F9DEAC1D1F9B673400829FB0 /* Info.plist */,
+				F9DEAC231F9B675E00829FB0 /* SwiftMapperViewController.swift */,
 			);
 			path = SwiftObjectToJSON;
+			sourceTree = "<group>";
+		};
+		F9DEAC251F9B677000829FB0 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				F9DEAC261F9B687B00829FB0 /* SwiftToJsonMapper.swift */,
+				F9DEAC281F9B68F300829FB0 /* AMSwiftBase.swift */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		F9DEAC2A1F9B695400829FB0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F9DEAC2B1F9B697100829FB0 /* LoginModel.swift */,
+				F9DEAC2D1F9B6C1900829FB0 /* TestViewController.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DEAC141F9B673300829FB0 /* ViewController.swift in Sources */,
+				F9DEAC2C1F9B697100829FB0 /* LoginModel.swift in Sources */,
 				F9DEAC121F9B673300829FB0 /* AppDelegate.swift in Sources */,
+				F9DEAC241F9B675E00829FB0 /* SwiftMapperViewController.swift in Sources */,
+				F9DEAC291F9B68F300829FB0 /* AMSwiftBase.swift in Sources */,
+				F9DEAC2E1F9B6C1900829FB0 /* TestViewController.swift in Sources */,
+				F9DEAC271F9B687B00829FB0 /* SwiftToJsonMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
