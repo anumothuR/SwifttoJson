@@ -40,8 +40,10 @@ extension SwiftJsonMappable {
         let mirror = Mirror(reflecting: self)
         for child in mirror.children {
             if let lable = child.label {
+                
                 //For Nil value found for any swift propery, that property should be skipped. if you wanna print nil on json, disable the below condition
                 if !checkAnyContainsNil(object: child.value) {
+                    
                     
                     //Check whether is custom swift class
                     if isCustomType(object: child.value) {
